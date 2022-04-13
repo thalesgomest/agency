@@ -1,4 +1,4 @@
-// mixins
+//mixins
 
 @mixin reset
 	body
@@ -31,7 +31,20 @@
 	text-align: center
 	font-weight: bold
 
-// buttons
+%center-background
+	background-size: cover
+	background-position: center
+
+%card-hover
+	.job-card-title, .job-card-cover, .job-card-description
+		opacity: 0
+
+	&:hover
+		.job-card-title, .job-card-cover, .job-card-description
+			opacity: 1
+
+
+//buttons
 
 button
 	background-color: $black
