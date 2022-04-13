@@ -1,6 +1,8 @@
 # dependencies
 /node_modules
-.prettierrc
-.eslintrc.json
+
+# formatters config
 .editorconfig
+
+# others
 projeto1-sass-agency.wakatime-project
