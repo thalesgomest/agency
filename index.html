@@ -4,10 +4,103 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- ? CSS Link -->
 		<link rel="stylesheet" href="css/styles.css" />
+		<!-- ? Font -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,700;0,900;1,300;1,700;1,900&display=swap"
+			rel="stylesheet"
+		/>
+		<!-- ? Icons Font Awesome -->
+		<script
+			src="https://kit.fontawesome.com/d345f07264.js"
+			crossorigin="anonymous"
+		></script>
 		<title>Agency</title>
 	</head>
 	<body>
-		<h1>testando sass</h1>
+		<!-- !Header -->
+		<header id="main-banner">
+			<div class="nav-container">
+				<a href="#" class="brand">
+					<i class="fas fa-brain"></i> Agency
+				</a>
+				<nav>
+					<ul class="nav-container__navbar">
+						<li>
+							<a href="#">Home</a>
+						</li>
+						<li>
+							<a href="#">Serviços</a>
+						</li>
+						<li>
+							<a href="#">Contato</a>
+						</li>
+						<li>
+							<button class="btn btn-primary">
+								<a href="#">Entrar</a>
+							</button>
+						</li>
+						<li>
+							<button class="btn">
+								<a href="#">Registrar</a>
+							</button>
+						</li>
+					</ul>
+				</nav>
+				<i class="fas fa-bars"></i>
+			</div>
+		</header>
+		<!-- !Serviços -->
+		<main class="services-container">
+			<h2>O que fazemos</h2>
+			<div class="services-card-container">
+				<!-- HTML generate with JS -->
+			</div>
+			<a href="#" class="btn btn-primary btn-rounded"
+				>Veja todos os serviços</a
+			>
+		</main>
+		<!-- !Jobs -->
+		<section class="jobs-container">
+			<h2>Alguns de nossos trabalhos</h2>
+			<div class="jobs-list">
+				<div class="jobs-list__first-job" id="job1">
+					<div class="job-card-cover">
+						<p class="job-card-title">Projeto 1</p>
+						<p class="job-card-description">
+							Lorem ipsum dolor sit amet consectetur, adipisicing
+							elit. Provident maxime atque in similique autem,
+							inventore rerum quisquam eius ipsam saepe fugiat
+							soluta odit sed veritatis sequi possimus totam,
+							suscipit dignissimos.
+						</p>
+					</div>
+				</div>
+				<div class="other-jobs-container"></div>
+			</div>
+		</section>
+		<!-- !Footer -->
+		<footer>
+			<div class="footer-container">
+				<div class="footer-container__description">
+					<h3 class="footer-title">Agency</h3>
+					<p>
+						Lorem ipsum dolor sit amet consectetur adipisicing elit.
+						Error, ipsum nam fuga labore iusto doloremque deserunt
+						dolor cumque eum adipisci repellat natus non
+						voluptatibus ducimus illo sed? Expedita, id quisquam?
+					</p>
+				</div>
+				<div class="footer-container__links"></div>
+				<div class="footer-container__copywriting">
+					<p>&copy; 2022 Agency</p>
+					<p>A melhor agência web para seus projetos</p>
+				</div>
+			</div>
+		</footer>
+		<script src="scripts.js"></script>
 	</body>
 </html>
