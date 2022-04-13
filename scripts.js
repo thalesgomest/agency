@@ -10,11 +10,11 @@ const Services = () => {
 		],
 		icons: [
 			'fa-solid fa-layer-group',
-			'fa-solid fa-bolt-lightning',
-			'fa-solid fa-bolt-lightning',
-			'fa-solid fa-bolt-lightning',
-			'fa-solid fa-bolt-lightning',
-			'fa-solid fa-bolt-lightning',
+			'fas fa-bolt',
+			'fas fa-cart-plus',
+			'fas fa-chart-line',
+			'fas fa-chess-pawn',
+			'fas fa-cloud',
 		],
 	};
 
