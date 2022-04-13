@@ -1,9 +1,113 @@
+#main-banner .title-container h1, #main-banner .title-container h2 {
+  text-shadow: 3px 2px #000000;
+}
+
+button {
+  background-color: #000000;
+  border-radius: 5px;
+  padding: 0.6rem 1rem;
+}
+
+.btn {
+  border: 1px solid #fff;
+  text-transform: uppercase;
+  transition: 0.3s;
+  color: #fff;
+}
+.btn:hover {
+  border-color: #ff5200;
+}
+.btn-primary {
+  background-color: #ff5200;
+  border-color: #ff5200;
+}
+.btn-primary:hover {
+  background-color: transparent;
+}
+.btn-rounded {
+  margin-top: 1rem;
+  border-radius: 2rem;
+  padding: 1rem 1.5rem;
+}
+
 body {
   font-family: "Lato";
 }
 
-h1 {
-  color: red;
+* {
+  box-sizing: border-box;
+  font-family: "Lato";
+}
+
+a {
+  text-decoration: none;
+}
+
+li {
+  list-style: none;
+}
+
+#main-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(./../assets/images/office.jpg);
+  height: 85vh;
+  background-size: cover;
+  background-position: center;
+}
+#main-banner .nav-container {
+  display: flex;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 1.5rem 2rem;
+  background-color: #000000;
+  z-index: 2;
+}
+#main-banner .nav-container .brand {
+  color: #fff;
+  font-size: 2rem;
+  transition: 0.3s;
+}
+#main-banner .nav-container .brand:hover {
+  color: #ff5200;
+}
+#main-banner .nav-container__navbar {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+#main-banner .nav-container__navbar li {
+  margin: 5px 10px;
+}
+#main-banner .nav-container__navbar li a {
+  color: #fff;
+  transition: 0.3s;
+}
+#main-banner .nav-container__navbar li a:hover {
+  color: #ff5200;
+}
+#main-banner .nav-container .fas.fa-bars {
+  font-size: 2rem;
+  color: #fff;
+  display: none;
+}
+#main-banner .title-container {
+  color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+#main-banner .title-container h2 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+#main-banner .title-container h1 {
+  font-size: 4rem;
+  margin-top: 1rem;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=styles.css.map */

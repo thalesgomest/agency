@@ -88,7 +88,7 @@ const Links = () => {
 					<li><a href="#">Politicas de Privacidade</a></li>
 					<li><a href="#">Contato</a></li>
 				</ul>
-			</div>;`;
+			</div>`;
 	}
 };
 

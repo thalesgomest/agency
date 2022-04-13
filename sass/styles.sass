@@ -1,5 +1,64 @@
-body
-	font-family: 'Lato'
+@import 'variables'
+@import 'utilities'
 
-h1
-	color: red
+
+@include reset
+
+#main-banner
+	background: linear-gradient(rgba(0,0,0,.6),rgba(0,0,0,.6)), url(./../assets/images/office.jpg)
+	height: 85vh
+	background-size: cover
+	background-position: center
+
+	.nav-container
+		display: flex
+		justify-content: space-between
+		position: fixed
+		top: 0
+		left: 0
+		width: 100%
+		padding: 1.5rem 2rem
+		background-color: $black
+		z-index: 2
+
+		.brand
+			color: $light-color
+			font-size: 2rem
+			@include main-hover
+
+		&__navbar
+			display: flex
+			align-items: center
+			height: 100%
+
+			li
+				margin: 5px 10px
+
+				a
+					color: $light-color
+					@include main-hover
+
+		.fas.fa-bars
+			font-size: 2rem
+			color: #fff
+			display: none
+
+	.title-container
+		color: $light-color
+		display: flex
+		flex-direction: column
+		align-items: center
+		justify-content: center
+		height: 100%
+
+		h2
+			font-size: 3rem
+			font-weight: bold
+			@extend %title-text-shadow
+
+		h1
+			font-size: 4rem
+			margin-top: 1rem
+			font-weight: bold
+			@extend %title-text-shadow
+
